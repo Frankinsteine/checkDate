@@ -30,7 +30,7 @@ function checkDate() {
     if (dateObj == "Invalid Date") {
         return wrongDateFormat;
     }
-    if(1900 <= dateObj.getFullYear && dateObj.getFullYear < 2000) {
+    if(1900 <= dateObj.getFullYear() && dateObj.getFullYear() < 2000) {
         return correctDate;
     }
     return incorrectDateInterval;
